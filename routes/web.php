@@ -66,4 +66,6 @@ Route::get('/antrian', [AntrianController::class, 'index'])->name('antrian.index
 Route::get('/antrian/finish', [AntrianController::class, 'finish'])->name('antrian.finish');
 Route::get('/antrian/payment', [AntrianController::class, 'payment'])->name('antrian.payment');
 
+Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
+
 
