@@ -3,7 +3,9 @@ use Illuminate\Support\Facades\Route;
 use \App\Http\controllers\PasienController;
 use \App\Http\Controllers\LoginController;
 use \App\Http\Controllers\JanjiController;
-use App\Http\Controllers\AntrianController;
+use \App\Http\Controllers\AntrianController;
+use \App\Http\Controllers\DashboardController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
